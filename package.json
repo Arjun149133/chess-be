@@ -2,6 +2,9 @@
   "name": "chess-be",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "postinstall": "prisma generate"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/cors": "^2.8.17",
